@@ -1,7 +1,7 @@
 
 ## change logs
 > 2.0.1
-* handling GET Request
+* handling GET,POST,PATCH,DELETE Request
 
 
 ## How to use thunder client
@@ -12,6 +12,29 @@
 * input the data
 * click the "send" button
 * you will see the response data
+
+## Handling Request
+* GET
+* POST
+* PATCH
+* DELETE
+
+> GET 
+* GET Request is used to get the data from the server
+
+> POST
+* POST Request is used to send the data to the server
+* POST Request is used to create the data in the server
+* POST Request is used to update the data in the server
+* POST Request is used to delete the data in the server
+
+> PATCH
+* PATCH Request is used to update the data in the server
+* PATCH Request is used to delete the data in the server
+
+> DELETE
+* DELETE Request is used to delete the data in the server
+
 
 ## TO create a basic Next js template to run command
 * npx create-next-app --example
