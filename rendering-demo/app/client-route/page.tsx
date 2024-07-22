@@ -21,9 +21,11 @@
 // }
 
 import { useTheme } from "@/components/theme-provider";
+import { clientSideFunction } from "@/utils/client-utils";
 
 export default function ClientRoutePage() {
     const theme = useTheme();
+    const result = clientSideFunction();
     const settings = {
         dots: true,
     }
@@ -32,7 +34,7 @@ export default function ClientRoutePage() {
         <>
             <h1 style={{
                 color: theme.colors.secondary
-            }}>Client Route Page</h1>
+            }}>Client Route Page {result}</h1>
         </>
     )
 }
